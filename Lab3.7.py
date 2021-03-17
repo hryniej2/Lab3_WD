@@ -3,7 +3,7 @@ def ciag(* liczby):
         return 0
     else:
         iloczyn = 1
-        for i in liczby:
-            iloczyn *= i
+        for x in liczby:
+            iloczyn *= x
         return iloczyn
 print(ciag())
