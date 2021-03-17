@@ -1,5 +1,5 @@
-def Pole_trap (a, b, h):
+def Pole_trap (a = 3, b = 6, h = 8):
     pole = ((a + b) * h) /2
     return pole
 
-print(Pole_trap(3, 6, 8))
+print(Pole_trap())
